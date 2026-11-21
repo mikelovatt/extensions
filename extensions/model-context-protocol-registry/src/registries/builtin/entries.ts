@@ -7,6 +7,19 @@ const METABRAIN_DB_PATH = join(homedir(), ".metabrain.db");
 
 export const OFFICIAL_ENTRIES: RegistryEntry[] = [
   {
+    name: "tubroom",
+    title: "Tubroom",
+    description:
+      "Find hotel rooms with their own jacuzzi, whirlpool or hot tub inside the room in the US, Canada and the UK: the exact room type to book at about 4,000 hotels, with the source and date each tub was checked. Search by city, region or map point, find romantic rooms, or check one hotel. Hosted Streamable HTTP server with 4 read-only tools, no account and no API key.",
+    icon: "https://tubroom.com/assets/logo-512.png",
+    homepage: "https://tubroom.com/mcp-server/?utm_source=raycast",
+    configuration: {
+      command: "npx",
+      args: ["-y", "mcp-remote", "https://tubroom.com/mcp"],
+    },
+    remoteUrl: "https://tubroom.com/mcp",
+  },
+  {
     name: "opencart-greece",
     title: "OpenCart Greece",
     description:

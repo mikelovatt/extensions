@@ -1,5 +1,9 @@
 # Model Context Protocol Registry Changelog
 
+## [Add Tubroom MCP Server] - {PR_MERGE_DATE}
+
+- Add Tubroom to the official registry: hotel rooms with their own jacuzzi or hot tub in the US, Canada and the UK, with the exact room to book. Hosted Streamable HTTP server at https://tubroom.com/mcp with a direct HTTP connection in Raycast and an `mcp-remote` fallback; no account or API key.
+
 ## [Update DC Hub MCP Server] - 2026-11-21
 
 - Refresh DC Hub's description in the registry and README: orchestration-layer wording, Data Center Power Index (DCPI) spelled out, no tool count, and the API key described as optional.
